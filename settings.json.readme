@@ -1,0 +1,13 @@
+JSON file that manages the settings interface of the plugin. Required fields include:
+
+    "servicerestart" : "service foo restart"
+
+Command to run when restarting the plugin service after changing settings.
+
+    "serviceget" : "/usr/local/bin/myget"
+
+Command used to get values for plugin configuration. Provided by the plugin creator. The command accepts two arguments for key or value pair.
+
+    "options" :
+
+This subsection contains arrays of elements, starting with the “key” name and required arguments for that particular type of setting.
