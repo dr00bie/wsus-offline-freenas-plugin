@@ -1,0 +1,5 @@
+JSON file that accepts the key or value options. For example:
+
+adminportal: "http://%%IP%%/"
+
+designates the web-interface of the plugin.
